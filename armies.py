@@ -1,5 +1,8 @@
 #!python3
 
 # my all time favorite joke
-print("Where did the general hide his armies?")
-print("Up his sleevies ahahahaahhahahaahghaha")
+class Joke():
+
+    def __init__(self):
+        self.question = "Where did the general hide his armies?"
+        self.answer = "Up his SLEEVIES ahahahaahhahahaahghaha"
